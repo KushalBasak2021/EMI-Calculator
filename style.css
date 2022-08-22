@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+#top {
+  color: #fff;
+  background-color: #14213d;
+}
+
+#top h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+#top .loan-input {
+  display: flex;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.loan-amount h3,
+.interest-rate h3,
+.tenure h3 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.loan-amount input {
+  font-size: 25px;
+  width: 200px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+}
+.interest-rate input,
+.tenure input {
+  font-size: 25px;
+  width: 120px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+#main .emi-amount h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main .payable-emi-amount {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#main .emi-interest h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main .payable-emi-interest {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#main .total-amount h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main .payable-total-amount {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.calculate {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: 1px solid red;
+  font-weight: 500;
+}
